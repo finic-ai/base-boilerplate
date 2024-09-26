@@ -138,22 +138,19 @@ pytz = "*"
 
 [[package]]
 name = "finicapi"
-version = "0.1.30"
-description = "Finic.ai is a platform for deploying agents and workflow automations in Python. This is the Python client for Finic"
+version = "0.1.31"
+description = "Finic.ai is a platform for deploying integrations and workflow automations in Python. This is the Python client for Finic"
 optional = false
-python-versions = "^3.10"
-files = []
-develop = true
+python-versions = "*"
+files = [
+    {file = "finicapi-0.1.31-py3-none-any.whl", hash = "sha256:315e0a917c020084bbde1a5cb1745ca01d9542a48585b9c74e22bd4d9ec2d472"},
+    {file = "finicapi-0.1.31.tar.gz", hash = "sha256:0c47a585e266838e9f967ae8ae4acd2c694b79a89df4b59ec14ac3cd8e2a867e"},
+]
 
 [package.dependencies]
-datetime = "^5.5"
-pydantic = "^2.9.1"
-python-dotenv = "^1.0.1"
-requests = "^2.32.3"
-
-[package.source]
-type = "directory"
-url = "../finic/python_library"
+datetime = "*"
+pydantic = "*"
+requests = "*"
 
 [[package]]
 name = "greenlet"
@@ -549,4 +546,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "7a0f2a94c38b64dcddba7564d75038168716719b73419f969f1fc395df191327"
+content-hash = "de5ee6615b39532d2c6dc295d3bcbd0326a37e54e9fe2c6eb63e80de4b5ebfcd"

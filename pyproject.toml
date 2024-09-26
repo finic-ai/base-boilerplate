@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "form_filler"
+name = "tiktok-scraper"
 version = "0.1.0"
 description = ""
 authors = ["Jason Fan <jason@finic.ai>"]
@@ -15,7 +15,7 @@ python-dotenv = "^1.0.1"
 finicapi = "^0.1.31"
 
 [tool.poetry.scripts]
-start = "form_filler:main"
+start = "tiktok_scraper:main"
 
 [build-system]
 requires = ["poetry-core"]

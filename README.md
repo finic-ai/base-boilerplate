@@ -1,2 +1,2 @@
-# create-finic-app
-Boilerplate for a Finic project
+# tiktok-scraper
+Boilerplate for a Finic project to scrape tiktok
