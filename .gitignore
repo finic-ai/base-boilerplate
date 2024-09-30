@@ -4,4 +4,6 @@
 **/.DS_Store
 /temp
 input.json
-secrets.json
+cookies.json
+usernames.json
+profiles.json

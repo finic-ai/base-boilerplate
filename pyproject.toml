@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tiktok-scraper"
+name = "instagram-scraper"
 version = "0.1.0"
 description = ""
 authors = ["Jason Fan <jason@finic.ai>"]
@@ -15,7 +15,8 @@ python-dotenv = "^1.0.1"
 finicapi = "^0.1.31"
 
 [tool.poetry.scripts]
-start = "tiktok_scraper:main"
+query-to-username = "instagram_scraper.query_to_username:main"
+scrape-profile = "instagram_scraper.scrape_profile:main"
 
 [build-system]
 requires = ["poetry-core"]
