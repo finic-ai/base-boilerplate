@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "instagram-scraper"
+name = "base-boilerplate"
 version = "0.1.0"
 description = ""
 authors = ["Jason Fan <jason@finic.ai>"]
@@ -12,11 +12,10 @@ requests = "^2.32.3"
 pydantic = "^2.9.1"
 playwright = "^1.46.0"
 python-dotenv = "^1.0.1"
-finicapi = "^0.1.31"
+finicapi = {path = "/Users/jasonfan/Documents/code/finic/python_library"}
 
 [tool.poetry.scripts]
-query-to-username = "instagram_scraper.query_to_username:main"
-scrape-profile = "instagram_scraper.scrape_profile:main"
+start = "base_boilerplate:main"
 
 [build-system]
 requires = ["poetry-core"]

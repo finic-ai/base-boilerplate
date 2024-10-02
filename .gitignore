@@ -3,7 +3,4 @@
 **/.env
 **/.DS_Store
 /temp
-input.json
-cookies.json
-usernames.json
-profiles.json
+args.json

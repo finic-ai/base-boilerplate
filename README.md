@@ -1,14 +1,14 @@
-# instagram-sraper
-Boilerplate for a Finic project to scrape instagram
+# base-boilerplate
+Boilerplate for a Finic project to scrape websites and automate the web.
 
 ## Instructions
 
 ### Step 1
-Create `input.json` and fill in the fields. For example:
+Create `args.json` and fill in the fields. For example:
 ```json
 {
-  "tags": ["marketing"],
-  "num_results": 20
+  "arg1": "value1",
+  "arg2": 15
 }
 ```
 
@@ -20,6 +20,6 @@ poetry install
 
 ### Step 3
 ```json
-poetry run query-to-username
+poetry run start
 
 ```
